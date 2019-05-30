@@ -8,7 +8,7 @@ import { of } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  name = 'Angular1';
+  name = 'Test';
 
   ngOnInit() {
     const nums = of(1, 2, 3, 4);
